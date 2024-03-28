@@ -1,0 +1,54 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    justify-content: space-evenly;
+}
+.table-user {
+    background-color: aqua;
+    border: 1px silver;
+    border-collapse: collapse;
+    width: 400px;
+}
+.table-user td,.table-user tr{
+    border: 1px solid red;
+    padding: 8px;
+    text-align: center;
+}
+.table-work{
+    background-color: aqua;
+    border: 1px silver;
+    border-collapse: collapse;
+    width: 400px; 
+}
+.table-work td,.table-work tr{
+    background-color: whitesmoke;
+    border: 1px solid red;
+    padding: 8px;
+    text-align: center;
+}
+.table-work th{
+    background-color: rgb(0, 255, 13);
+    border: 1px solid red;
+    padding: 8px;
+    text-align: center;
+}
+fieldset{
+    width: 500px;
+    
+}
+div{
+    width: 500px;
+    margin: 50px;
+}
+fieldset{
+    border-radius: 2%;
+}
+img{
+    width: 240px;
+}
+.profile{
+    border-radius: 100%;
+}
